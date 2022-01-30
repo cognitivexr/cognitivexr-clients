@@ -32,4 +32,6 @@ Python
 
 * [CogStream engine client library](https://github.com/cognitivexr/CogStream/blob/main/cogstream-py/cogstream/engine/client.py)
 
-  Part of the cogstream python framework 
+  Part of the cogstream python framework.
+  Some of the python engines also come with an engine client for debugging, that demonstrates how the engine client library can be used.
+  Here is one example: https://github.com/cognitivexr/CogStream/blob/main/engines/engines-py/fermx/fermx/client.py
