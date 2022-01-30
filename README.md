@@ -6,10 +6,21 @@ This repository collects links to clients and client SDKs for the [cognitivexr-p
 Unity
 -----
 
-TODO: link
+[Unity Package](https://github.com/cognitivexr/cognitivexr-unity-client)
+  
+  Is a package that can be included into a Unity project via its package manager
 
-* CPOP
-* CogStream
+* [CPOP](https://github.com/cognitivexr/cognitivexr-unity-client/blob/main/Runtime/Cpop)
+  
+  The Unity CPOP client connects to a CPOP stream and listens for updates
+
+* [CogStream](https://github.com/cognitivexr/cognitivexr-unity-client/tree/main/Runtime/cogstream)
+  
+  Contains the MediatorClient and EngineClient. 
+  The [MediatorClient](https://github.com/cognitivexr/cognitivexr-unity-client/blob/main/Runtime/cogstream/MediatorClient.cs) establishes a connection to the mediator, returns a list of available engines and facilitates the launch and connection to the engine. Once an engine is launched, the address, returned by the mediator client, can be passed to an EngineClient.
+  The [EngineClient](https://github.com/cognitivexr/cognitivexr-unity-client/blob/main/Runtime/cogstream/EngineClient.cs) connects to an engine and supports a send and a receive channel.
+  
+  [Example Project](https://github.com/cognitivexr/unity-demo-app)
 
 Python
 ------
