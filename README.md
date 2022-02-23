@@ -46,3 +46,9 @@ Python
   Part of the cogstream python framework.
   Some of the python engines also come with an engine client for debugging, that demonstrates how the engine client library can be used.
   Here is one example: https://github.com/cognitivexr/CogStream/blob/main/engines/engines-py/fermx/fermx/client.py
+
+License
+-------
+
+* Code: Apache 2.0
+* Documentation and READMEs: CC-BY-SA-4.0
